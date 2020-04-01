@@ -11,6 +11,18 @@ function AccountCreateForm() {
                 <FormLabel name="Username" />
                 <FormInput id="username" placeholder="Username" />
             </FormGroup>
+            <FormGroup>
+                <FormLabel name="Email" />
+                <FormInput id="email" placeholder="someone@something.com" />
+            </FormGroup>
+            <FormGroup>
+                <FormLabel name="Password" />
+                <FormInput id="password" />
+            </FormGroup>
+            <FormGroup>
+                <FormLabel name="Confirm Password" />
+                <FormInput id="passwordConfirm" />
+            </FormGroup>
         </FormWrapper>
     );
 };

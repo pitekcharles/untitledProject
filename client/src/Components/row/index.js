@@ -1,6 +1,6 @@
 import React from "react";
 
-function row({ children }) {
+function Row({ children }) {
     return (
         <div className="row">
             {children}
@@ -8,4 +8,4 @@ function row({ children }) {
     );
 };
 
-export default row;
+export default Row;
