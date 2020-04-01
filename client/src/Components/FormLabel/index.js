@@ -1,9 +1,9 @@
 import React from "react";
 
-function label({ name }){
+function FormLabel({ name }){
     return (
         <label dataName={name}>{name}</label>
     );
 };
 
-export default label;
+export default FormLabel;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function formGroup({ children }) {
+function FormGroup({ children }) {
     return (
         <div className="form-group">
             {children}
@@ -8,4 +8,4 @@ function formGroup({ children }) {
     );
 };
 
-export default formGroup;
+export default FormGroup;

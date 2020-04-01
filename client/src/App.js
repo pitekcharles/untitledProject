@@ -1,8 +1,11 @@
 import React from 'react';
+import AccountCreateForm from "./pages/AccountCreateForm";
 
 function App() {
   return (
-    <h1>Sup!</h1>
+    <>
+      <AccountCreateForm />
+    </>
   );
 }
 

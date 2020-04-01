@@ -1,6 +1,6 @@
 import React from "react";
 
-function formWrapper({ children }){
+function FormWrapper({ children }){
     return (
         <form>
             {children}
@@ -8,4 +8,4 @@ function formWrapper({ children }){
     );
 };
 
-export default formWrapper;
+export default FormWrapper;
