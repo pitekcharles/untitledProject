@@ -1,0 +1,25 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "Not sure what I am going to do with this project yet but it will be a full stack react project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitekcharles/untitledProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pitekcharles/untitledProject/issues"
+  },
+  "homepage": "https://github.com/pitekcharles/untitledProject#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
