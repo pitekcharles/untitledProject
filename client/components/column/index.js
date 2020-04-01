@@ -1,8 +1,8 @@
 import React from "react";
 
-function column({ width, children }) {
+function column({ colWidth, children }) {
     return (
-        <div className="col-md-"{width}>
+        <div className={colWidth}>
             {children}
         </div>
     );
